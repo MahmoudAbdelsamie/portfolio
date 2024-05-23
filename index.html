@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahmoud Abdelsamie | Backend Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="images/favicon.png" type="favicon">
+  </head>
+  <body>
+    <header>
+      <h1>Mahmoud Abdelsamie</h1>
+      <p>Backend Software Engineer</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/mahmoud-abdelsamie/" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/MahmoudAbdelsamie" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello 👋 I'm Mahmoud Abdelsamie, a passionate Backend Engineer
+        specialized in Node.js, Express, and databases like PostgreSQL and
+        MongoDB. I love building efficient and scalable web applications. With a
+        background in computer science, I am eager to contribute to dynamic
+        development teams and take on challenging projects.
+      </p>
+      <img src="images/profile.jpg" alt="Mahmoud Abdelsamie" />
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>PostgreSQL</li>
+        <li>MongoDB</li>
+        <li>RESTful APIs</li>
+        <li>Git & GitHub</li>
+        <li>JavaScript</li>
+        <li>AWS</li>
+        <li>Docker</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>SwiftCart API</h3>
+        <p>
+          SwiftCart API is a robust and scalable e-commerce backend solution
+          designed to handle a wide range of functionalities essential for
+          modern online shopping platforms. This project leverages a powerful
+          technology stack to ensure high performance, security, and an
+          excellent user experience.
+        </p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>
+            Comprehensive Product Management: Supports creating, updating,
+            deleting, and retrieving product details, complete with image
+            handling and category management.
+          </li>
+          <li>
+            Secure Authentication & Authorization: Implements JWT-based
+            authentication, role-based access control, and secure password
+            management to protect user data and resources.
+          </li>
+          <li>
+            Advanced User Interactions: Includes features like user
+            registration, login, profile management, and password reset
+            capabilities, ensuring a smooth user experience.
+          </li>
+          <li>
+            Efficient Shopping Cart & Wishlist: Provides endpoints to manage
+            shopping carts and wishlists, enabling users to add, remove, and
+            view items with ease.
+          </li>
+          <li>
+            Order & Payment Processing: Facilitates order creation, tracking,
+            and payment processing using secure and reliable methods.
+          </li>
+          <li>
+            Review & Rating System: Allows users to submit and view reviews and
+            ratings for products, enhancing the shopping experience with
+            user-generated content.
+          </li>
+          <li>
+            Performance Optimization: Utilizes Redis for caching frequently
+            accessed data and PostgreSQL for robust database management,
+            ensuring fast and reliable performance.
+          </li>
+          <li>
+            Admin Capabilities: Offers comprehensive administrative
+            functionalities, including user management, sales reports, and order
+            tracking, enabling effective platform management.
+          </li>
+          <li>
+            Security Best Practices: Employs Helmet for securing HTTP headers,
+            rate limiting to prevent abuse, and thorough input validation to
+            protect against common vulnerabilities.
+          </li>
+        </ul>
+        <p><strong>Technologies Used:</strong></p>
+        <ul>
+          <li><strong>Backend:</strong> Node.js, Express.js</li>
+          <li><strong>Database:</strong> PostgreSQL</li>
+          <li><strong>Caching:</strong> Redis</li>
+          <li><strong>Authentication:</strong> JWT (JSON Web Tokens)</li>
+          <li>
+            <strong>Security:</strong> Helmet, rate limiting, bcrypt for
+            password hashing
+          </li>
+          <li><strong>File Uploads:</strong> Multer</li>
+          <li><strong>Email Handling:</strong> Nodemailer</li>
+        </ul>
+        <a href="https://github.com/MahmoudAbdelsamie/swiftcart" target="_blank"
+          >GitHub</a
+        >
+        | <a href="https://app.swaggerhub.com/apis/mhmoud.swe/SwiftCart/1.0.0#" target="_blank">Live Docs</a>
+      </div>
+
+      <div class="project-card">
+        <h3>ProTask API</h3>
+        <p>
+          <strong
+            >ProTask API: Comprehensive Project Management Solution</strong
+          >
+        </p>
+        <p>
+          As a Node.js Backend Developer, I designed and implemented the ProTask
+          API, a robust project management solution built with Node.js, Express,
+          Sequelize ORM, PostgreSQL, and Socket.IO for real-time communication.
+          The ProTask API is engineered to streamline project workflows, enhance
+          team collaboration, and ensure efficient task management across
+          various projects and workspaces.
+        </p>
+        <p><strong>Key Features and Functionalities:</strong></p>
+        <ul>
+          <li>
+            User Authentication and Authorization: Implemented secure user
+            authentication (sign-up, login) and robust JWT-based authorization
+            to safeguard user data and maintain secure access control.
+          </li>
+          <li>
+            Workspace Management: Enabled creation, retrieval, and management of
+            multiple workspaces, allowing teams to organize their projects in
+            distinct environments.
+          </li>
+          <li>
+            Space and Task Management: Developed endpoints for adding and
+            managing spaces within workspaces, facilitating structured project
+            breakdowns. Integrated comprehensive task management
+            functionalities, including creating, updating, and deleting tasks
+            and subtasks.
+          </li>
+          <li>
+            Tag and Status Management: Incorporated features for adding and
+            managing tags and statuses, allowing users to categorize and track
+            task progress effectively.
+          </li>
+          <li>
+            Attachment and Dependency Handling: Added capabilities for managing
+            task attachments and dependencies, ensuring users can associate
+            relevant files and establish task hierarchies.
+          </li>
+          <li>
+            Invitation and Role Management: Implemented user invitation and role
+            management functionalities, enabling workspace owners to invite new
+            users and assign specific roles and permissions.
+          </li>
+          <li>
+            Real-Time Communication: Utilized Socket.IO to provide real-time
+            updates, ensuring that all team members stay informed about changes
+            and updates as they happen.
+          </li>
+          <li>
+            Comprehensive Validation and Error Handling: Ensured data integrity
+            and application stability through rigorous validation and
+            centralized error handling mechanisms.
+          </li>
+        </ul>
+        <p><strong>Technology Stack:</strong></p>
+        <ul>
+          <li>
+            <strong>Node.js:</strong> Utilized for its efficient, event-driven
+            architecture suitable for scalable network applications.
+          </li>
+          <li>
+            <strong>Express:</strong> Chosen for its minimalistic, flexible
+            framework ideal for building RESTful APIs.
+          </li>
+          <li>
+            <strong>Sequelize ORM:</strong> Employed for seamless interaction
+            with PostgreSQL, ensuring efficient data modeling and querying.
+          </li>
+          <li>
+            <strong>PostgreSQL: </strong>Selected for its powerful, reliable
+            database capabilities, supporting complex queries and transactions.
+          </li>
+          <li>
+            <strong>Socket.IO:</strong> Integrated for enabling real-time,
+            bidirectional communication, enhancing collaborative
+            functionalities.
+          </li>
+        </ul>
+        <p><strong>Achievements:</strong></p>
+        <ul>
+          <li>
+            Scalability: Designed the API to support numerous concurrent users
+            and multiple project workspaces, ensuring scalability for growing
+            teams.
+          </li>
+          <li>
+            Security: Implemented robust security practices, including JWT
+            authentication and thorough input validation, to protect user data
+            and application integrity.
+          </li>
+          <li>
+            Performance: Optimized the API for high performance, ensuring fast
+            response times and efficient handling of large datasets.
+          </li>
+          <li>
+            Collaboration: Enhanced team collaboration through real-time updates
+            and comprehensive role management, fostering an efficient project
+            management environment.
+          </li>
+        </ul>
+        <a
+          href="https://github.com/MahmoudAbdelsamie/protask-api"
+          target="_blank"
+          >GitHub</a
+        >
+      </div>
+
+      <div class="project-card">
+        <h3>Session-Based Authentication System</h3>
+        <p>
+          The Session-Based Authentication System is a secure user
+          authentication system that uses session cookies to manage user logins
+          and maintain session integrity. It is designed to ensure secure access
+          control and user data protection while providing a seamless user
+          experience.
+        </p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>
+            User Registration and Login: Allows users to register and log in
+            securely, storing session data in cookies.
+          </li>
+          <li>
+            Session Management: Manages user sessions, ensuring that only
+            authenticated users can access protected resources.
+          </li>
+          <li>
+            Secure Password Handling: Implements bcrypt for secure password
+            hashing and storage.
+          </li>
+          <li>
+            CSRF Protection: Utilizes tokens to protect against Cross-Site
+            Request Forgery attacks.
+          </li>
+          <li>
+            Logout Functionality: Provides secure logout functionality to
+            invalidate user sessions.
+          </li>
+          <li>
+            Access Control: Implements role-based access control to restrict
+            access to specific resources based on user roles.
+          </li>
+        </ul>
+        <p><strong>Technologies Used:</strong></p>
+        <ul>
+          <li><strong>Backend:</strong> Node.js, Express.js</li>
+          <li><strong>Database:</strong> PostgreSQL</li>
+          <li><strong>Security:</strong> bcrypt, CSRF tokens</li>
+          <li>
+            <strong>Session Management:</strong> Express-session, cookie-parser
+          </li>
+        </ul>
+        <a
+          href="https://github.com/MahmoudAbdelsamie/authentication-system"
+          target="_blank"
+          >GitHub</a
+        >
+      </div>
+
+      <div class="project-card">
+        <h3>JWT-Based Authentication System</h3>
+        <p>
+          The JWT-Based Authentication System is a secure and scalable
+          authentication solution using JSON Web Tokens (JWT) for managing user
+          authentication and authorization. It ensures secure user data handling
+          and access control for web applications.
+        </p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>
+            User Registration and Login: Allows users to register and log in
+            securely, generating JWTs for session management.
+          </li>
+          <li>
+            Token-Based Authentication: Uses JWTs for user authentication,
+            ensuring secure token generation and validation.
+          </li>
+          <li>
+            Role-Based Access Control: Implements role-based access control to
+            manage user permissions and restrict access to resources.
+          </li>
+          <li>
+            Token Refresh: Provides functionality to refresh tokens, maintaining
+            secure sessions without requiring users to re-login frequently.
+          </li>
+          <li>
+            Secure Password Handling: Utilizes bcrypt for secure password
+            hashing and storage.
+          </li>
+          <li>
+            Logout Functionality: Provides secure logout functionality to
+            invalidate tokens and terminate sessions.
+          </li>
+        </ul>
+        <p><strong>Technologies Used:</strong></p>
+        <ul>
+          <li><strong>Backend:</strong> Node.js, Express.js</li>
+          <li><strong>Database:</strong> PostgreSQL</li>
+          <li><strong>Authentication:</strong> JWT (JSON Web Tokens)</li>
+          <li><strong>Security:</strong> bcrypt</li>
+        </ul>
+        <a
+          href="https://github.com/MahmoudAbdelsamie/jwt-auth"
+          target="_blank"
+          >GitHub</a
+        >
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-entry">
+        <h3>Backend Developer</h3>
+        <h4>Affsquare</h4>
+        <p><em>Nov 2023 - Mar 2024</em></p>
+        <ul>
+          <li>
+            Contributed to the development of a ClickUp-like project management
+            system within a collaborative team environment
+          </li>
+          <li>
+            Collaborated closely with frontend developers to deliver endpoints
+            for seamless integration
+          </li>
+          <li>
+            Implemented authentication, user, workspace, and space CRUD
+            operations using Node.js, Express.js, and Sequelize
+          </li>
+          <li>
+            Optimized database queries and schema design to ensure data
+            integrity and efficiency
+          </li>
+          <li>
+            Developed settings management features to enhance application
+            configurability
+          </li>
+          <li>
+            Demonstrated strong problem-solving skills and adaptability in a
+            fast-paced development environment.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="https://formspree.io/f/xnqeyzjv" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+      <p>
+        Connect with me on
+        <a href="https://www.linkedin.com/in/mahmoud-abdelsamie/">LinkedIn</a> and
+        <a href="https://github.com/MahmoudAbdelsamie">GitHub</a>.
+      </p>
+    </section>
+  </body>
+</html>
